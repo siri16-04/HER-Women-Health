@@ -1,0 +1,32 @@
+# Presage Engine (Docker) – real Presage vitals via [deltahacks-12/presage-engine](https://github.com/seifotefa/deltahacks-12/tree/main/presage-engine)
+# Run: docker-compose -f docker-compose.presage.yml up -d
+# Then set PRESAGE_VIDEO_API_URL=http://localhost:8080/process-video and start HER.
+
+services:
+  presage_engine:
+    platform: linux/amd64
+    build:
+      context: .
+      dockerfile: docker/presage-engine.Dockerfile
+    image: heradx-presage-engine
+    container_name: heradx_presage_engine
+    ports:
+      - "8080:8080"
+    env_file:
+      - .env
+    environment:
+      - SMARTSPECTRA_API_KEY=${PRESAGE_API_KEY:-}
+      - PRESAGE_API_KEY=${PRESAGE_API_KEY:-}
+      - PHYSIOLOGY_API_KEY=${PRESAGE_API_KEY:-}
+    volumes:
+      - presage_uploads:/app/uploads
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-sf", "http://localhost:8080/health"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+      start_period: 30s
+
+volumes:
+  presage_uploads:

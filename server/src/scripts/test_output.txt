@@ -1,0 +1,19 @@
+
+Testing POST to: https://womens-health-menstrual-cycle-phase-predictions-insights.p.rapidapi.com/
+Status: 404
+Body: {"message":"Endpoint '\/' does not exist"}
+Headers:
+connection: keep-alive
+content-encoding: gzip
+content-type: application/json
+date: Wed, 18 Feb 2026 15:12:53 GMT
+referrer-policy: strict-origin-when-cross-origin
+server: RapidAPI-0.0.28
+transfer-encoding: chunked
+vary: Accept-Encoding
+x-content-type-options: nosniff
+x-frame-options: DENY
+x-rapidapi-proxy-response: true
+x-rapidapi-region: AWS - ap-southeast-1
+x-rapidapi-request-id: 4b11f3093f02480c28000d7f7466b3a8e4b3cce6cd9aade816f92191b5571d8f
+x-rapidapi-version: 0.0.28

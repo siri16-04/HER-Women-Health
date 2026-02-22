@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:elevenlabs.io)",
+      "WebSearch",
+      "WebFetch(domain:docs.physiology.presagetech.com)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:api.github.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(npm install:*)",
+      "Bash(claude mcp:*)",
+      "Bash(git ls-tree:*)",
+      "Bash(git merge:*)",
+      "Bash(git stash:*)",
+      "Bash(git checkout:*)",
+      "Bash(docker-compose:*)",
+      "Bash(curl:*)",
+      "Bash(ffmpeg:*)"
+    ]
+  },
+  "enabledMcpjsonServers": [
+    "supabase"
+  ]
+}

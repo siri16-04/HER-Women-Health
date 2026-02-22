@@ -1,0 +1,30 @@
+{
+  "name": "heradx-server",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test:rapidapi": "tsx src/scripts/test_api.ts",
+    "test:rapidapi:endpoints": "tsx src/scripts/test_rapidapi_endpoints.ts",
+    "validate:vitals": "tsx src/scripts/validate_vitals_accuracy.ts"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "@supabase/supabase-js": "^2.97.0",
+    "@types/multer": "^2.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "multer": "^2.0.2"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.9.0",
+    "tsx": "^4.19.2",
+    "typescript": "~5.6.2"
+  }
+}

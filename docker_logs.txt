@@ -1,0 +1,80 @@
+﻿========================================
+Camera device status: Not Available
+========================================
+Presage Engine starting on port 8080...
+Γ£ô Using Presage SmartSpectra SDK
+========================================
+Endpoints:
+  GET /status - Check SDK status
+  POST /process-video - Upload video, process with SDK, return vitals JSON
+  POST /upload - Upload MP4 video file
+  GET /test - Run video processing (uses uploaded video or camera)
+  GET /live - Get latest vitals data from SDK
+  GET /health - Health check
+========================================
+Video file saved: /app/uploads/video_1771239310.mp4 (837188 bytes)
+Processing video with Presage SmartSpectra SDK to extract REAL vitals...
+Starting video processing...
+Using video file: /app/uploads/video_1771239310.mp4
+Error: Camera device /dev/video0 not found!
+Error: Camera device /dev/video0 not found!
+I20260216 10:55:10.706715    13 foreground_container_impl.hpp:149] Begin to initialize preprocessing container.
+I20260216 10:55:10.722091    13 initialization_impl.hpp:233] Initialize the calculator graph.
+I20260216 10:55:10.722318    13 initialization_impl.hpp:234] OpenGl buffers used in graph: false
+I20260216 10:55:10.724457    13 initialization_impl.hpp:113] Scaling input in graph: true
+I20260216 10:55:10.867539    13 initialization_impl.hpp:282] Initialize the compute device.
+I20260216 10:55:11.041742    13 initialization_impl.hpp:345] Initialize the graphical user interface.
+I20260216 10:55:11.041906    13 foreground_container_impl.hpp:199] Finish preprocessing container initialization.
+I20260216 10:55:11.043013  1146 foreground_container_impl.hpp:232] Set up output pollers.
+I20260216 10:55:11.044678  1146 foreground_container_impl.hpp:253] Start running the calculator graph.
+I20260216 10:55:11.149662  1146 foreground_container_impl.hpp:262] Start to grab and process frames.
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+W0000 00:00:1771239311.231885    1130 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1771239311.231823    1135 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1771239311.288641    1137 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+I20260216 10:55:11.290072  1133 average_roi_calculator.cc:115] Dense mesh points not requested, so they will not be provided.
+W0000 00:00:1771239311.495137    1135 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1771239311.572017    1132 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+I20260216 10:55:11.573570  1136 usage_statistics_calculator.cc:62] Using default usage statistics interval: 5s
+I20260216 10:55:11.906157  1146 foreground_container_impl.hpp:298] Encountered empty frame: assuming end of video or stream reached.
+I20260216 10:55:11.906260  1146 foreground_container_impl.hpp:468] Shutting down.
+I20260216 10:55:11.916100  1135 continuous_preprocessed_json_calculator.cc:187] Closing ContinuousPreprocessedJsonCalculator
+I20260216 10:55:11.916852  1135 continuous_metrics_rest_calculator.cc:104] Closing ContinuousMetricsRestCalculator
+I20260216 10:55:12.185624  1147 rest_api_client.cc:403] Usage verified successfully. Usage available: 1
+I20260216 10:55:12.189252  1136 usage_sync_calculator.cc:74] Using default sync interval: 5s
+I20260216 10:55:12.189383  1136 usage_sync_calculator.cc:81] UsageSyncCalculator initialized: sync_interval=5s
+Error: Camera device /dev/video0 not found!
+I20260216 11:16:55.510821     8 foreground_container_impl.hpp:149] Begin to initialize preprocessing container.
+I20260216 11:16:55.511323     8 initialization_impl.hpp:233] Initialize the calculator graph.
+I20260216 11:16:55.511363     8 initialization_impl.hpp:234] OpenGl buffers used in graph: false
+I20260216 11:16:55.512701     8 initialization_impl.hpp:113] Scaling input in graph: true
+I20260216 11:16:55.536710     8 initialization_impl.hpp:282] Initialize the compute device.
+I20260216 11:16:55.547379     8 initialization_impl.hpp:345] Initialize the graphical user interface.
+I20260216 11:16:55.547447     8 foreground_container_impl.hpp:199] Finish preprocessing container initialization.
+I20260216 11:16:55.547755  1959 foreground_container_impl.hpp:232] Set up output pollers.
+I20260216 11:16:55.547861  1959 foreground_container_impl.hpp:253] Start running the calculator graph.
+I20260216 11:16:55.551250  1959 foreground_container_impl.hpp:262] Start to grab and process frames.
+Video source initialized. Processing...
+W0000 00:00:1771240615.561318    1950 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Processing completed.
+Video file saved: /app/uploads/video_1771240615.mp4 (833110 bytes)
+W0000 00:00:1771240615.561598    1944 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1771240615.592383    1947 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+I20260216 11:16:55.592760  1947 average_roi_calculator.cc:115] Dense mesh points not requested, so they will not be provided.
+W0000 00:00:1771240615.608877    1948 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+Processing video with Presage SmartSpectra SDK to extract REAL vitals...
+Starting video processing...
+W0000 00:00:1771240615.678992    1949 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1771240615.717721    1943 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+I20260216 11:16:55.718190  1947 usage_statistics_calculator.cc:62] Using default usage statistics interval: 5s
+I20260216 11:16:55.718348  1947 usage_sync_calculator.cc:74] Using default sync interval: 5s
+I20260216 11:16:55.718387  1947 usage_sync_calculator.cc:81] UsageSyncCalculator initialized: sync_interval=5s
+I20260216 11:16:56.221140  1959 foreground_container_impl.hpp:298] Encountered empty frame: assuming end of video or stream reached.
+I20260216 11:16:56.221233  1959 foreground_container_impl.hpp:468] Shutting down.
+I20260216 11:16:56.223449  1949 continuous_preprocessed_json_calculator.cc:187] Closing ContinuousPreprocessedJsonCalculator
+I20260216 11:16:56.223532  1946 continuous_metrics_rest_calculator.cc:104] Closing ContinuousMetricsRestCalculator
+Using video file: /app/uploads/video_1771240615.mp4
+Video source initialized. Processing...
+Status: No issues detected.
+Processing completed.

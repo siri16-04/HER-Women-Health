@@ -1,0 +1,12 @@
+﻿src/components/chat/DrHeraChat.tsx(40,29): error TS2339: Property 'getHistory' does not exist on type '{ create: (data: { lifeStage: string; selectedBodyParts: string[]; additionalNotes?: string | undefined; }) => Promise<any>; getAll: () => Promise<any[]>; getById: (id: string) => Promise<...>; }'.
+src/components/chat/DrHeraChat.tsx(40,47): error TS7006: Parameter 'sessions' implicitly has an 'any' type.
+src/components/chat/DrHeraChat.tsx(51,49): error TS7006: Parameter 's' implicitly has an 'any' type.
+src/pages/IntakePage.tsx(78,10): error TS6133: 'BiometricStats' is declared but its value is never read.
+src/pages/IntakePage.tsx(154,3): error TS6133: 'currentBpm' is declared but its value is never read.
+src/pages/IntakePage.tsx(155,3): error TS6133: 'currentHrv' is declared but its value is never read.
+src/pages/IntakePage.tsx(156,3): error TS6133: 'currentConfidence' is declared but its value is never read.
+src/pages/PeriodTrackerPage.tsx(648,54): error TS2345: Argument of type '([date, pred]: [string, { phase?: string; probability?: number; }]) => JSX.Element' is not assignable to parameter of type '(value: [string, unknown], index: number, array: [string, unknown][]) => Element'.
+  Types of parameters '__0' and 'value' are incompatible.
+    Type '[string, unknown]' is not assignable to type '[string, { phase?: string | undefined; probability?: number | undefined; }]'.
+      Type at position 1 in source is not compatible with type at position 1 in target.
+        Type 'unknown' is not assignable to type '{ phase?: string | undefined; probability?: number | undefined; }'.
