@@ -21,13 +21,6 @@ Run `npm run dev` to start the development server.
 * [Claude Code](https://github.com/features/copilot) - AI assistance for fasttracking development process in the limited timeframe
 * [Cursor](https://cursor.com/dashboard) Used to assist in debugging and implementing Docker containerization for Presage web integration, improving development efficiency
 
-## Authors
-
-* **Emma Humphreys** - *Frontend development + Pitching* - [emqings](https://github.com/emqings)
-* **Saldon Topjor** - *Full-stack development* - [topshelff](https://github.com/topshelff)
-* **Sophie Atkinson** - *Backend development* - [shatkinson22](https://github.com/shatkinson22)
-* **Sherry Sun** - *Backend development + Pitch slides* - [shersxn](https://github.com/shersxn)
-
 ## Acknowledgments & Credits
 
 * All assets made by team members using Figma and Canva
