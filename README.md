@@ -20,7 +20,3 @@ Run `npm run dev` to start the development server.
 * [Figma](https://www.figma.com/) - Used to create mockups and UI for LockIn
 * [Claude Code](https://github.com/features/copilot) - AI assistance for fasttracking development process in the limited timeframe
 * [Cursor](https://cursor.com/dashboard) Used to assist in debugging and implementing Docker containerization for Presage web integration, improving development efficiency
-
-## Acknowledgments & Credits
-
-* All assets made by team members using Figma and Canva
